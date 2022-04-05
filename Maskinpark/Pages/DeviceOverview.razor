@@ -1,0 +1,42 @@
+﻿@page "/deviceoverview"
+
+<h1>List of Devices</h1>
+
+@if(Devices is null)
+{
+    <p><em>Loading..</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>ID</th>
+                <th>Status</th>
+                <th>Update Time</th>
+                <th></th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var device in Devices)
+            {
+                <tr>
+                    <td></td>
+                    <td>
+                        @device.Id
+                    </td>
+                    <td>
+                        @device.Status
+                    </td>
+                    <td>
+                        @device.UpdateDateTime
+                    </td>
+                    <td></td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}

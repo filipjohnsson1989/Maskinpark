@@ -1,0 +1,33 @@
+﻿@page "/devicedetail/{DeviceId}"
+
+
+@if (Devices is null)
+{
+    <p><em>Loading..</em></p>
+}
+else
+{
+    <h1>Device ID:  @Device.Id</h1>
+    <div class="row">
+        <div class="form-group row">
+            <label class=col-4 col-form-labbel">Device Status</label>
+            <div class="col-8">
+                <label type="text" class="form-control-plaintext">
+
+                    @Device.Status
+                </label>
+            </div>
+        </div>
+        <label class=col-4 col-form-labbel">Last Update</label>
+            <div class="col-8">
+                <label type="text" class="form-control-plaintext">
+
+                    @Device.UpdateDateTime
+                </label>
+            </div>
+
+    </div>
+
+}
+
+
