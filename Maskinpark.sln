@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maskinpark", "Maskinpark\Ma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maskinpark.Core", "Maskinpark.Core\Maskinpark.Core.csproj", "{410A49EB-C520-4BC2-B625-5B5E37E385FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maskinpark.Test", "Maskinpark.Test\Maskinpark.Test.csproj", "{75E8A18F-9447-4793-A888-A7FDD2422925}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maskinpark.Tests", "Maskinpark.Tests\Maskinpark.Tests.csproj", "{57A6E926-3811-471B-9B98-7C5F6D9663F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{410A49EB-C520-4BC2-B625-5B5E37E385FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{410A49EB-C520-4BC2-B625-5B5E37E385FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{410A49EB-C520-4BC2-B625-5B5E37E385FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{75E8A18F-9447-4793-A888-A7FDD2422925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75E8A18F-9447-4793-A888-A7FDD2422925}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{75E8A18F-9447-4793-A888-A7FDD2422925}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{75E8A18F-9447-4793-A888-A7FDD2422925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A6E926-3811-471B-9B98-7C5F6D9663F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A6E926-3811-471B-9B98-7C5F6D9663F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A6E926-3811-471B-9B98-7C5F6D9663F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A6E926-3811-471B-9B98-7C5F6D9663F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

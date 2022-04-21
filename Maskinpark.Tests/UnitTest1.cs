@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace Maskinpark.Test
+namespace Maskinpark.Tests
 {
     public class UnitTest1
     {
