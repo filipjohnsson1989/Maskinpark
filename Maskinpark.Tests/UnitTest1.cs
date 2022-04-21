@@ -7,7 +7,15 @@ namespace Maskinpark.Tests
         [Fact]
         public void Test1()
         {
+            // Arrange
+            var arrange = false;
 
+            // Act
+            var actual = true;
+
+
+            // Assert
+            Assert.Equal(actual, arrange);
         }
     }
 }
