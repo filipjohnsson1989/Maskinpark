@@ -15,7 +15,7 @@ namespace Maskinpark.Tests
 
 
             // Assert
-            Assert.Equal(actual, arrange);
+            Assert.Equal(actual, !arrange);
         }
     }
 }
